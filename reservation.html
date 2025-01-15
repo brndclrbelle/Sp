@@ -69,7 +69,7 @@
                 };
 
                 // Send email via EmailJS
-                emailjs.send("spherica_dining", "template_zdcjeg6", emailParams)
+                emailjs.send("Spherica_dining", "template_zdcjeg6", emailParams)
                     .then(function(response) {
                         alert("Reservation confirmed! A confirmation email has been sent.");
                         window.location.href = `payment.html?adults=${adultsInput.value}&children=${childrenInput.value}&date=${selectedDate}&occasion=${encodeURIComponent(occasionInput.value)}&total=${totalCost}`;
